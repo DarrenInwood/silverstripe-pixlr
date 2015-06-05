@@ -1,0 +1,22 @@
+{
+	"name": "michelsteege/silverstripe-pixlr",
+	"description": "SilverStripe Pixr module",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "pixlr"],
+	"license": "GNU LGPL v3",
+	"authors": [
+		{
+			"name": "Michel vd Steege"
+		}
+	],
+	"require": {
+		"silverstripe/cms": ">=3.1",
+		"silverstripe/framework": ">=3.1"
+	},
+	"extra": {
+		"installer-name": "pixlr",
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
